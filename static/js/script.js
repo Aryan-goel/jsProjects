@@ -9,3 +9,7 @@ function ageInDays() {
   document.getElementById('flex-box-result').appendChild(h1)
   console.log(ageInDayss);
 }
+ 
+function reset() {
+    document.getElementById("ageInDays").remove();
+}

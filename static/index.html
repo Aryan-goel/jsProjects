@@ -33,8 +33,39 @@
     </div>
     <div class="container-2">
       <h2>Challenge 2: Cat Generator</h2>
-      <button class="btn btn-success" id="cat-gen" onclick="generateCat()">Generate Cat</button>
+      <button class="btn btn-success" id="cat-gen" onclick="generateCat()">
+        Generate Cat
+      </button>
       <div class="flex-box-container-2" id="flex-cat-gen"></div>
+    </div>
+    <div class="container-3">
+      <h2>Rock paper scissors</h2>
+      <div class="flex-box-rps" id="flex-box-rps-div">
+        <img
+          id="rock"
+          src="https://media.istockphoto.com/photos/stone-pebble-gray-picture-id1288973456?s=612x612"
+          height="150"
+          width="150"
+          alt=""
+          onclick="rpsGame(this)"
+        />
+        <img
+          id="paper"
+          src="https://cdn.pixabay.com/photo/2017/08/11/14/02/paper-2631126_1280.jpg"
+          height="150"
+          width="150"
+          alt=""
+          onclick="rpsGame(this)"
+        />
+        <img
+          id="scissors"
+          src="https://www.ikea.com/in/en/images/products/sy-scissors__0598116_pe677469_s5.jpg?f=xl"
+          height="150"
+          width="150"
+          alt=""
+          onclick="rpsGame(this)"
+        />
+      </div>
     </div>
 
     <script src="./js/script.js"></script>

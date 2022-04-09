@@ -29,6 +29,7 @@
   display: flex;
   flex-wrap: wrap;
   border: 1px solid blue;
+
   justify-content: space-around;
   
 }
@@ -37,5 +38,11 @@
     display: flex;
     padding: 10px;
     height: 163px;
+    margin: 10px;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps img:hover {
+
+box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
 }

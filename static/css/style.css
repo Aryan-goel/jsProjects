@@ -37,4 +37,5 @@
     display: flex;
     padding: 10px;
     height: 163px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
 }

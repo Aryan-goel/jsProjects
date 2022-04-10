@@ -11,6 +11,7 @@
   border: 1px solid black;
   justify-content: space-around;
   flex-wrap: wrap;
+  
 }
 .flex-box-container-1 div {
   padding: 10px;
@@ -29,20 +30,33 @@
   display: flex;
   flex-wrap: wrap;
   border: 1px solid blue;
-
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
-  
 }
-.flex-box-container-2 img{
-    border: 1px solid green;
+.flex-box-container-2 img {
+  border: 1px solid green;
+  display: flex;
+  padding: 10px;
+  height: 163px;
+  margin: 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+.container-3 {
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.flex-box-rps {
     display: flex;
-    padding: 10px;
-    height: 163px;
-    margin: 10px;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
-}
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
 .flex-box-rps img:hover {
-
-box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+  box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
 }

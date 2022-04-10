@@ -15,9 +15,20 @@ function reset() {
 }
 
 function generateCat() {
-  var image=document.createElement('img');
-  var div= document.getElementById('flex-cat-gen');
-  image.src="https://i.kym-cdn.com/photos/images/original/001/931/959/2e4.gif"
+  var image = document.createElement("img");
+  var div = document.getElementById("flex-cat-gen");
+  image.src =
+    "https://i.kym-cdn.com/photos/images/original/001/931/959/2e4.gif";
   div.appendChild(image);
+}
+//? rock paper scissors
 
+function rpsGame(yourChoice) {
+  var humanChoice, botChoice;
+  //humanChoice=yourChoice.id
+  //botChoice=
+
+  //results=decideWinner(humanChoice,botChoice);//
+  //message=finalMessage(result)
+  rpsFrontEnd(yourChoice.id, botChoice, message);
 }

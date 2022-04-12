@@ -30,8 +30,9 @@ function rpsGame(yourChoice) {
   console.log('computer choice: ',botChoice);
   results=decideWinner(humanChoice,botChoice);
   console.log(results);
-  //message=finalMessage(result)
-  //rpsFrontEnd(yourChoice.id, botChoice, message);
+  message=finalMessage(results)
+  console.log(message);
+  rpsFrontEnd(yourChoice.id, botChoice, message);
 }
 
 function randomToRpsInt() {
@@ -54,7 +55,31 @@ function decideWinner(yourChoice,computerChoice){
 
 }
 function finalMessage([youScore,computerScore]){
+if(youScore===0){
+  return{'message':"You lost!",'color':'red'}
+   
+}
+else if(youScore===0.5){
+  return {'message':'Tied!!','color':"yellow"}
+}else{
+  return {'message':"you won!",'color':'green'}
+}
+
+
+}
+function rpsFrontEnd(humanImageChoice,botImageChoice,finalMessage){
+var imagesDatabase={
+  'rock':document.getElementById("rock").src,
+  'paper':document.getElementById("paper").src,
+  'scissors':document.getElementById('scissors').src
+
+
+}
+//lets remove all the images
+
+document.getElementById('rock').remove()
+document.getElementById('paper').remove()
+document.getElementById('scissors').remove()
 
   
-
 }

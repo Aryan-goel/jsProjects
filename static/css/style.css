@@ -51,6 +51,7 @@
 .flex-box-rps {
     display: flex;
     flex-wrap: wrap;
+    
     border: 1px solid blue;
     flex-wrap: wrap;
     flex-direction: row;
